@@ -134,9 +134,6 @@ namespace EVEMon
             // Update the content
             UpdateTabs();
 
-            // Initialize G15
-            G15Handler.Init();
-
             // Ensures the installation files downloaded through the autoupdate are correctly deleted
             UpdateManager.DeleteInstallationFiles();
 
